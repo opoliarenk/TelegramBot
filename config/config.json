@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "lEm0n",
+    "database": "telegrambot",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "admin",
+    "password": "lEm0n",
+    "database": "telegrambot",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "admin",
+    "password": "lEm0n",
+    "database": "telegrambot",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

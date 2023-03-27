@@ -1,0 +1,36 @@
+{
+  "name": "telegrambotnode",
+  "version": "1.0.0",
+  "description": "Telegram Bot for humanitarian registration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/opoliarenk/TelegramBot.git"
+  },
+  "author": "Poliarenko Olena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opoliarenk/TelegramBot/issues"
+  },
+  "homepage": "https://github.com/opoliarenk/TelegramBot#readme",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.61.0",
+    "pg": "^8.10.0",
+    "sequelize": "^6.29.3",
+    "telegraf": "^4.12.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.21"
+  }
+}
